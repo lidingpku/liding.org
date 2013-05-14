@@ -1,0 +1,1 @@
+<?php header("location: http://www.cs.umbc.edu/~dingli1/") ?>

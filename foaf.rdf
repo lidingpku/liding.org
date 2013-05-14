@@ -1,0 +1,259 @@
+<?xml version="1.0" ?>
+
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:owl="http://www.w3.org/2002/07/owl#"
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:cv ="http://tw.rpi.edu/2008/sw/cv#"
+      xmlns:bib ="http://tw.rpi.edu/2008/sw/bib#"
+      xmlns:bibx ="http://tw.rpi.edu/2008/sw/bibx#">
+
+	  
+<foaf:Document rdf:about="">
+	   <dc:creator> 
+		<foaf:Person rdf:about="#me" />
+	   </dc:creator>
+	   <dc:date>2012-11-28</dc:date>
+</foaf:Document>
+
+<foaf:Person rdf:about ="#me">
+ <foaf:name>Li Ding</foaf:name>
+ <foaf:firstName>Li</foaf:firstName>
+ <foaf:surname>Ding</foaf:surname>
+
+ 
+ <foaf:homepage rdf:resource="http://liding.org/"/> 
+ 
+ <foaf:mbox_sha1sum>ae8bf6238cbfde7831ee21d5cf0dd5e48e71fffd</foaf:mbox_sha1sum>
+ <foaf:mbox_sha1sum>ba7653bf90ad13f74795696a659f89b741396916</foaf:mbox_sha1sum>
+ <foaf:mbox_sha1sum>f30bfe092229c0820ba7daaab8620e0381f9a5c2</foaf:mbox_sha1sum>
+ <foaf:mbox_sha1sum>a7d0967c21ba8952ab0443bf822750d4c44afe2c</foaf:mbox_sha1sum>
+ 
+ <cv:hasResearchInterest>Mobile Computing</cv:hasResearchInterest>
+ <cv:hasResearchInterest>Social Semantic Web</cv:hasResearchInterest>
+ <cv:hasResearchInterest>Linked Data</cv:hasResearchInterest>
+ <cv:hasResearchInterest>Linked Open Government Data</cv:hasResearchInterest>
+ <cv:hasResearchInterest>Semantic Web</cv:hasResearchInterest>
+ <cv:hasResearchInterest>Ontology</cv:hasResearchInterest>
+ <cv:hasResearchInterest>Provenance</cv:hasResearchInterest>
+ <cv:hasResearchInterest>Privacy</cv:hasResearchInterest>
+ <cv:hasResearchInterest>Semantic Search</cv:hasResearchInterest>
+ <cv:hasResearchInterest>Knowledge Management Systems</cv:hasResearchInterest>
+ <cv:hasResearchInterest>Data Preservation</cv:hasResearchInterest>
+
+ <foaf:pastProject rdf:resource="#proj_iw" />
+ <foaf:pastProject rdf:resource="#proj_tami" />
+ <foaf:pastProject rdf:resource="#proj_gila" />
+ <foaf:pastProject rdf:resource="#proj_calo" />
+ <foaf:pastProject rdf:resource="#proj_daml" />
+ <foaf:pastProject rdf:resource="#proj_swoogle" />
+ <foaf:pastProject rdf:resource="#proj_semdis" />
+ <foaf:pastProject rdf:resource="#proj_tac" />
+</foaf:Person>
+
+    <foaf:Project rdf:about="#proj_iw">
+	<rdfs:label>Inference Web</rdfs:label> 
+	<rdfs:comment>Provenance and Explanation for the Semantic Web</rdfs:comment> 
+	<rdfs:seeAlso rdf:resource="http://inference-web.org/" />
+    </foaf:Project>
+    
+    <foaf:Project rdf:about="#proj_tami">
+	<rdfs:label>Transparent Accountable Datamining Initiative (TAMI)</rdfs:label> 
+	<rdfs:seeAlso rdf:resource="http://dig.csail.mit.edu/TAMI/" />
+	<cv:hasFundingSource rdf:resource="#NSF" />
+    </foaf:Project>
+    <foaf:Project rdf:about="#proj_gila">
+	<rdfs:label>General Integrated Learning Architecture (GILA)</rdfs:label> 
+	<cv:hasFundingSource rdf:resource="#DARPA" />
+    </foaf:Project>
+    <foaf:Project rdf:about="#proj_calo">
+	<rdfs:label>Cognitive Agent that Learns and Observes (CALO)</rdfs:label> 
+	<cv:hasFundingSource rdf:resource="#DARPA" />
+    </foaf:Project>
+    <foaf:Project rdf:about="#proj_daml">
+	<rdfs:label>DAML-Based Services, Document Templates and Query Answering</rdfs:label> 
+	<cv:hasFundingSource rdf:resource="#DARPA" />
+    </foaf:Project>
+
+    <cv:Organization rdf:about="#NSF">
+	<rdfs:label>NSF</rdfs:label> 
+    </cv:Organization>
+
+    <cv:Organization rdf:about="#DARPA">
+	<rdfs:label>DARPA</rdfs:label> 
+    </cv:Organization>
+    
+    <foaf:Project rdf:about="#proj_swoogle">
+	<rdfs:label>Swoogle</rdfs:label> 
+	<rdfs:comment>Search and metadata for the Semantic Web</rdfs:comment> 
+	<rdfs:seeAlso rdf:resource="http://swoogle.umbc.edu" />
+	<cv:hasFundingSource rdf:resource="#NSF" />
+    </foaf:Project>
+
+    <foaf:Project rdf:about="#proj_semdis">
+	<rdfs:label>SemDis</rdfs:label> 
+	<rdfs:comment>Semantic Discovery: Discovering Complex Relationships in Semantic Web</rdfs:comment> 
+	<rdfs:seeAlso rdf:resource="http://semdis.umbc.edu" />
+	<cv:hasFundingSource rdf:resource="#NSF" />
+    </foaf:Project>
+
+    <foaf:Project rdf:about="#proj_tac">
+	<rdfs:label>International Trading Agent Competition</rdfs:label> 
+	<rdfs:comment>Ranked 4th in TAC'02, 5th in TAC'03, 2nd in TAC SCM'04</rdfs:comment> 
+	<rdfs:seeAlso rdf:resource="http://swoogle.umbc.edu" />
+    </foaf:Project>
+
+<foaf:Person rdf:about ="#me">
+    
+ <foaf:knows> 
+	<foaf:Person rdf:about="#tim_finin">
+
+   		<foaf:name>Tim Finin</foaf:name>
+   		<foaf:mbox_sha1sum>49953f47b9c33484a753eaf14102af56c0148d37</foaf:mbox_sha1sum>
+		<rdfs:seeAlso  rdf:resource="http://www.cs.umbc.edu/~finin//foaf.rdf" />
+		<foaf:depiction rdf:resource="http://umbc.edu/~finin/passport.gif"/>
+  	</foaf:Person>
+ </foaf:knows>
+  <foaf:knows>
+	<foaf:Person rdf:about="http://www.cs.rpi.edu/~hendler/foaf.rdf#jhendler" >
+
+		<foaf:mbox_sha1sum>0b62d4242736e64be6138547c79a811b3e82fd52</foaf:mbox_sha1sum>
+		<foaf:firstName>Jim</foaf:firstName>
+		<foaf:surname>Hendler</foaf:surname>
+		<foaf:name>Jim Hendler</foaf:name>
+		<foaf:title>Tetherless World Constellation Chair</foaf:title>
+		<foaf:homepage rdf:resource="http://www.cs.rpi.edu/~hendler"/>
+
+		<foaf:depiction rdf:resource="http://www.cs.rpi.edu/~hendler/hendler.gif"/>
+		<rdfs:seeAlso  rdf:resource="http://www.cs.rpi.edu/~hendler/foaf.rdf" />
+  	</foaf:Person>
+  </foaf:knows>
+  <foaf:knows>
+	<foaf:Person>
+   		<foaf:name>Deborah L. McGuinness</foaf:name>
+		<foaf:mbox_sha1sum>71ff9c05d8111e6a4bfcbd452a5c5579b24c39dc</foaf:mbox_sha1sum>   			
+		<foaf:homepage rdf:resource="http://www.ksl.stanford.edu/people/dlm/"/>
+
+		<foaf:depiction rdf:resource="http://www.ksl.stanford.edu/people/dlm/dlm5.jpg"/>
+  	</foaf:Person>
+  </foaf:knows>
+ <foaf:knows>
+  	<foaf:Person>
+   		<foaf:name>Anupam Joshi</foaf:name>
+   		<foaf:mbox_sha1sum>de4984eb69b9610f133321ac8b1fc38de56661e3</foaf:mbox_sha1sum>
+		<foaf:homepage rdf:resource="http://www.csee.umbc.edu/~joshi/"/>
+
+		<foaf:depiction rdf:resource="http://www.csee.umbc.edu/~joshi/anupam_joshi.jpg"/>		
+  	</foaf:Person>
+  </foaf:knows>
+  <foaf:knows>
+  	<foaf:Person>
+   		<foaf:name>Yun Peng</foaf:name>
+   		<foaf:mbox_sha1sum>db4ea97f5c5bb68c529c38045142014a5176eb3b</foaf:mbox_sha1sum>
+		<foaf:homepage rdf:resource="http://www.csee.umbc.edu/~ypeng/"/>
+
+		<foaf:depiction rdf:resource="http://www.csee.umbc.edu/~ypeng/ypeng2.jpg"/>
+  	</foaf:Person>
+  </foaf:knows>
+ <foaf:knows> 
+	<foaf:Person>
+   		<foaf:name>Harry Chen</foaf:name>
+   		<foaf:mbox_sha1sum>944880c478f58ac2a5a63fa3e922e712a0e327fc</foaf:mbox_sha1sum>
+		<rdfs:seeAlso  rdf:resource="http://www.cs.umbc.edu/~hchen4/foaf.rdf" />
+
+		<foaf:depiction rdf:resource="http://ebiquity.umbc.edu/v2.1/faces/136.jpeg"/>		
+  	</foaf:Person>
+ </foaf:knows>
+  <foaf:knows>
+  	<foaf:Person>
+   		<foaf:name>Rong Pan</foaf:name>
+   		<foaf:mbox_sha1sum>1893e2ed02fdc08025bc8c54bacf8e37d252db73</foaf:mbox_sha1sum>
+		<foaf:depiction rdf:resource="http://ebiquity.umbc.edu/v2.1/photos/s/140.jpg"/>		
+  	</foaf:Person>
+
+  </foaf:knows>
+  <foaf:knows>
+  	<foaf:Person>
+   		<foaf:name>Pranam Kolari</foaf:name>
+   		<foaf:mbox_sha1sum>b2343cb3594c46adac2d1b0b75d5ea16ec7c306c</foaf:mbox_sha1sum>
+   		<foaf:mbox_sha1sum>aa884c3b597328d8270b0e7753c8579ba8bbb6b2</foaf:mbox_sha1sum>
+		<rdfs:seeAlso  rdf:resource="http://www.csee.umbc.edu/~kolari1/kolari-foaf.rdf" />
+
+		<foaf:homepage rdf:resource="http://www.csee.umbc.edu/~kolari1/"/>
+		<foaf:depiction rdf:resource="http://www.csee.umbc.edu/~kolari1/Kolari.jpg"/>
+  	</foaf:Person>
+  </foaf:knows>
+  <foaf:knows>
+	<foaf:Person>
+		<foaf:name>Filip Perich</foaf:name> 
+		<foaf:mbox_sha1sum>1a621b1cc0bb8da0ce29e598ab3a3d151f261f82</foaf:mbox_sha1sum> 
+		<rdfs:seeAlso  rdf:resource="http://ebiquity.umbc.edu/v2.1/person/foaf/Filip//Perich/foaf.rdf" />
+
+		<foaf:depiction rdf:resource="http://ebiquity.umbc.edu/v2.1/faces/60.jpeg"/>		
+	</foaf:Person>
+  </foaf:knows>
+  <foaf:knows>
+	<foaf:Person>
+   		<foaf:name>Paulo Pinheiro da Silva</foaf:name>
+   		<foaf:firstName>Paulo</foaf:firstName>
+		<foaf:mbox_sha1sum>afcf8ea9e395ec60a723c775e4841b23961aedb1</foaf:mbox_sha1sum>
+
+		<foaf:homepage rdf:resource="http://www.ksl.stanford.edu/people/pp/"/>
+		<foaf:depiction rdf:resource="http://www.ksl.stanford.edu/people/pp/paulo.jpg"/>
+  	</foaf:Person>
+  </foaf:knows>
+  <foaf:knows>
+	<foaf:Person>
+   		<foaf:name>Akashy Java</foaf:name>
+		<foaf:mbox_sha1sum>8c87106601c2d2536eea38b1d473d8774c4f7404</foaf:mbox_sha1sum>
+
+		<foaf:homepage rdf:resource="http://ebiquity.umbc.edu/person/html/Akshay//Java/"/>
+		<foaf:depiction rdf:resource="http://ebiquity.umbc.edu/faces/228.jpeg"/>
+  	</foaf:Person>
+  </foaf:knows>
+  <foaf:knows>
+	<foaf:Person>
+   		<foaf:name>Mykel Kochenderfer</foaf:name>
+		<foaf:mbox_sha1sum>7f184568996fb1e50defaab2febe867be1c17cb1</foaf:mbox_sha1sum>
+
+		<foaf:homepage rdf:resource="http://mykel.kochenderfer.com/"/>
+		<foaf:depiction rdf:resource="http://mykel.kochenderfer.com/images/portrait.jpg"/>
+  	</foaf:Person>
+  </foaf:knows>
+  <foaf:knows>
+	<foaf:Person>
+   		<foaf:name>Bin Yu</foaf:name>
+		<foaf:mbox_sha1sum>a5b7539b3dd21174abfdc6b2c87a01adca158254</foaf:mbox_sha1sum>
+
+		<foaf:homepage rdf:resource="http://www-2.cs.cmu.edu/~byu/"/>
+		<foaf:depiction rdf:resource="http://www-2.cs.cmu.edu/~byu/binyu-2004.jpg"/>
+  	</foaf:Person>
+  </foaf:knows>
+  <foaf:knows>
+  	<foaf:Person rdf:about="http://www.mentores.com.br/vasco/foaf-vasco.rdf#me">
+   		<foaf:name>Vasco Furtado</foaf:name>
+   		<foaf:mbox_sha1sum>121564a209c494b647f496a349073840d4c33408</foaf:mbox_sha1sum>
+
+		<rdfs:seeAlso  rdf:resource="http://www.mentores.com.br/vasco/foaf-vasco.rdf" />
+		<foaf:homepage rdf:resource="http://www.mentores.com.br/vasco/"/>
+		<foaf:depiction rdf:resource="http://www.mentores.com.br/vasco/imagens/P1090007Mod10.gif"/>
+  	</foaf:Person>
+  </foaf:knows>
+  <foaf:knows>
+  	<foaf:Person rdf:about="#zhuoqun_xu">
+   		<foaf:name>ZhuoQun Xu</foaf:name>
+  	</foaf:Person>
+  </foaf:knows>
+  <foaf:knows>
+  	<foaf:Person>
+   		<foaf:name>Jie Bao</foaf:name>
+		<foaf:homepage rdf:resource="http://www.cs.rpi.edu/~baojie/" />
+		<foaf:depiction rdf:resource="http://www.cs.rpi.edu/~baojie/image/2008-04-01_DC_small.jpg"/>
+  	</foaf:Person>
+  </foaf:knows>
+ 
+</foaf:Person>
+ 
+</rdf:RDF>
