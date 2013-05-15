@@ -1,1 +1,1 @@
-<?php header("location: http://www.cs.umbc.edu/~dingli1/") ?>
+<?php header("location: http://liding.org") ?>
